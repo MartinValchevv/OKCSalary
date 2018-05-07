@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="224.0" prefWidth="315.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sot.Controller">
+    <Label layoutX="120.0" layoutY="14.0" prefHeight="30.0" prefWidth="75.0" text="Грешка">
+        <font>
+          <Font size="22.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="65.0" fitWidth="65.0" layoutX="126.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@error.png" />
+    </ImageView>
+    <Label layoutX="10.0" layoutY="129.0" prefHeight="19.0" prefWidth="295.0" text="Няма въведени данни, или са грешно въведени !">
+        <font>
+          <Font size="13.0" />
+        </font>
+    </Label>
+    <JFXButton fx:id="bottomTry" layoutX="90.0" layoutY="171.0" onAction="#tryAgain" prefHeight="32.0" prefWidth="135.0" stylesheets="@design.css" text="Опитай отново">
+        <font>
+          <Font name="System Bold" size="12.0" />
+        </font>
+    </JFXButton>
+</AnchorPane>

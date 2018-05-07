@@ -1,0 +1,66 @@
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent transparent transparent transparent;
+}
+
+.tab {
+    -fx-background-color: #ffffff;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-color: white white #4286f4 white ;
+    -fx-padding: 15px;
+}
+
+.tab:selected {
+
+    -fx-background-color:  #ffffff;
+    -fx-border-insets: 0 0 0 0;
+    -fx-border-color: white white #4286f4 white ;
+    -fx-padding: 15px;
+    -fx-border-width: 5px;
+}
+
+.tab-header-background {
+    -fx-background-color:  #ffffff;
+    -fx-border-color: #4286f4;
+    }
+
+.tab-label {
+    -fx-text-fill: #4286f4;
+    -fx-font-size: 16px;
+}
+
+.tab-label:hover {
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: black;
+}
+
+.button {
+
+    -fx-background-color: #4286f4;
+    -fx-background-radius: 20px;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+
+        -fx-background-color: white;
+        -fx-background-radius: 20px;
+        -fx-text-fill: #4286f4;
+        -fx-border-color: #4286f4;
+        -fx-border-radius: 18;
+        -fx-border-width: 3;
+}
+
+.button:pressed {
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #4286f4;
+    -fx-border-color: #4286f4;
+    -fx-border-radius: 18;
+    -fx-border-width: 3;
+    -fx-rotate: 7;
+}
+

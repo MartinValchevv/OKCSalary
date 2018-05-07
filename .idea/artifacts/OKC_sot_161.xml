@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="OKC sot 161">
+    <output-path>$PROJECT_DIR$/out/artifacts/OKC_sot_161</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sot.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="Martin Valchev" />
+        <option name="version" value="2018.0.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="OKC_sot_161.jar">
+        <element id="module-output" name="OKC sot 161" />
+        <element id="library" level="project" name="jfoenix" />
+      </element>
+    </root>
+  </artifact>
+</component>

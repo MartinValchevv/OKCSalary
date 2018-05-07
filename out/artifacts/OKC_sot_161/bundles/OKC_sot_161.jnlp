@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="OKC_sot_161.jnlp">
+  <information>
+    <title>OKC sot 161</title>
+    <vendor>Martin Valchev</vendor>
+    <description>OKC sot 161</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="OKC_sot_161.jar" size="119806" download="eager" />
+    <jar href="jfoenix.jar" size="2401594" download="eager" />
+    <jar href="sot\jfoenix.jar" size="2401594" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sot.Main"  name="OKC sot 161" />
+  <update check="background"/>
+</jnlp>
